@@ -1,0 +1,166 @@
+/* Start Styling Of Navigation */
+.navbar-default
+{
+background-color:#222222 !important;
+text-transform: uppercase;
+font-family: calibri;
+font-weight: 700;
+padding-right:20px;
+}
+.navbar a
+{
+color:#fff !important;
+opacity:0.7;
+}
+.navbar a:hover
+{
+color:#fff !important;
+opacity:1;
+background-color: #3D3D3D !important;
+}
+/* End Of Navigation Style */
+
+/* Start Styling Of Header */
+.header
+{
+height: 600px;
+background-image: url('Images/Pic (2).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding-top:50px;
+}
+.header h2
+{
+color:white;
+text-align: center;
+font-size:25px;
+font-family: calibri;
+font-weight: 700px;
+}
+.header p
+{
+color:white;
+text-align: justify;
+font-size:16px;
+font-family: calibri;
+font-weight: 700px;
+}
+.header img
+{
+border:1px solid gray;
+border-radius: 20px;
+margin-top:30px;
+height: 300px;
+width:450px;
+}
+.header .btn
+{
+width: 120px;
+}
+@media(max-width:500px)
+{
+.header img
+{
+height: 200px;        
+}
+.header
+{
+height: 630px;
+}
+.btn
+{
+margin-top:10px;
+}
+}
+.header .services
+{
+background-color: greenyellow;
+}
+/* End Styling Of Header */
+/* Start Of Styling Services */
+.services
+{
+padding:20px;
+color:white;
+background-color: steelblue;
+text-align: center;
+}
+.services h2
+{
+font-size:25px;
+font-style:italic;
+font-family: calibri;
+text-align: center;
+}
+.services h3
+{
+font-size:20px;
+font-style:italic;
+font-family: calibri;
+text-align: center;
+}
+.services p
+{
+font-size:16px;
+font-style:italic;
+font-family: calibri;
+text-align: justify;
+}
+.services span
+{
+height: 60px;
+width:60px;
+line-height: 60px;
+font-size:20px;
+border:1px solid gray;
+border-radius: 30px;
+background-color:#36648B;
+text-align: center;
+color:white;
+}
+@media(max-width:500px)
+{
+.services .container h2,p
+{
+padding:10px;       
+}
+}
+/* End Of Styling Services */
+/* Start Of Styling Pricing */
+.pricing
+{
+background-color:#4682B4;
+}
+.pricing .packages
+{
+padding: 10px;
+border:1px solid gray;
+border-radius: 20px;
+text-align: center;
+background-color: white;
+}
+.pricing .packages li
+{
+text-align: justify;
+}
+.pricing .btn
+{
+margin-tp:10px;
+width:120px;
+background-color: #4682B4;
+}
+.pricing .btn:hover
+{
+background-color:#36648B;
+}
+@media(max-width:500px)
+{.pricing .packages
+{
+margin-top:10px;
+}
+}
+.pricing .packages
+{
+margin-bottom: 10px;
+}
+/* End Of Styling Pricing */

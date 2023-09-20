@@ -1,0 +1,360 @@
+/* Start Styling Of Navigation */
+.navbar-default
+{
+background-color:#222222 !important;
+text-transform: uppercase;
+font-family: calibri;
+font-weight: 700;
+padding-right:20px;
+}
+.navbar a
+{
+color:#fff !important;
+opacity:0.7;
+}
+.navbar a:hover
+{
+color:#fff !important;
+opacity:1;
+background-color: #3D3D3D !important;
+}
+/* End Of Navigation Style */
+
+/* Start Styling Of Header */
+.header
+{
+height: 600px;
+background-image: url('../Images/pic (2).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+padding-top:50px;
+}
+.header h2
+{
+color:white;
+text-align: center;
+font-size:25px;
+font-family: calibri;
+font-weight: 700px;
+}
+.header p
+{
+color:white;
+text-align: justify;
+font-size:16px;
+font-family: calibri;
+font-weight: 700px;
+}
+.header img
+{
+border:1px solid gray;
+border-radius: 20px;
+margin-top:30px;
+height: 300px;
+width:450px;
+}
+.header .btn
+{
+width: 120px;
+}
+@media(max-width:500px)
+{
+.header img
+{
+height: 200px;        
+}
+.header
+{
+height: 630px;
+}
+.btn
+{
+margin-top:10px;
+}
+}
+.header .services
+{
+background-color: greenyellow;
+padding:40px 0 80px 0;
+}
+/* End Styling Of Header */
+/* Start Of Styling Services */
+.services
+{
+color:white;
+background-color: steelblue;
+text-align: center;
+}
+.services h2
+{
+font-size:25px;
+font-style:italic;
+font-family: calibri;
+text-align: center;
+}
+.services h3
+{
+font-size:20px;
+font-style:italic;
+font-family: calibri;
+text-align: center;
+}
+.services p
+{
+font-size:16px;
+font-style:italic;
+font-family: calibri;
+text-align: justify;
+}
+.services span
+{
+height: 60px;
+width:60px;
+line-height: 60px;
+font-size:20px;
+border:1px solid gray;
+border-radius: 30px;
+background-color:#36648B;
+text-align: center;
+color:white;
+}
+@media(max-width:500px)
+{
+.services .container h2,p
+{
+padding:10px;       
+}
+}
+/* End Of Styling Services */
+/* Start Of Styling Pricing */
+.pricing
+{
+padding: 30px 10px 40px 10px;
+background-color:#4682B4;
+}
+.pricing h2
+{
+color:white;
+font-size:20px;
+font-style: italic;
+font-family: calibri;
+text-align: center;
+}
+.pricing p
+{
+color:white;
+font-size:16px;
+font-style: italic;
+font-family: calibri;
+text-align: justify;
+}
+.pricing .packages h2
+{
+color:black;
+}
+.pricing .packages p
+{
+margin:5px;
+text-align: center;
+color:black;
+}
+.pricing .packages
+{
+padding: 10px;
+border:1px solid gray;
+border-radius: 20px;
+text-align: center;
+background-color: white;
+margin-bottom: 20px;
+}
+.pricing .packages li
+{
+text-align: justify;
+}
+.pricing .btn
+{
+margin-top:10px;
+width:120px;
+background-color: #4682B4;
+}
+.pricing .btn:hover
+{
+background-color:#36648B;
+}
+@media(max-width:500px)
+{.pricing .packages
+{
+margin-top:10px;
+}
+}
+.pricing .packages
+{
+margin-top: 20px;
+}
+/* End Of Styling Pricing */
+
+/* Start Of Styling Team */
+
+.team
+{
+padding: 50px 10px 50px 10px;
+text-align: center;
+}
+.team .container h3
+{
+text-align: center;
+font-style: italic;
+font-family: calibri;
+font-size: 20px;
+}
+.team .container p
+{
+padding-bottom: 10px;
+text-align: justify;
+font-style: italic;
+font-family: calibri;
+font-size: 16px;
+}
+.team .container h2
+{
+text-align: center;
+font-style: italic;
+font-family: calibri;
+font-size: 20px;
+}
+.team .container img
+{
+height: 200px;
+width:200px;
+border:1px solid gray;
+border-radius: 20px;
+}
+.team .container span
+{
+height: 30px;
+width: 30px;
+line-height: 30px;
+text-align: center;
+font-size: 16px;
+background-color:royalblue;
+border-radius: 20px;
+color: white;
+margin-bottom: 10px;
+}
+.team span:hover
+{
+background-color:darkslateblue;
+}
+/* End Of Styling Team */
+
+/* Start of Styling Client */
+.client
+{
+padding: 50px 0 80px;
+color:white;
+background-color: royalblue;
+text-align: center;
+}
+.client .container h2
+{
+font-family: calibri;
+font-size: 20px;
+font-style: italic;
+}
+.client .container p
+{
+font-family: calibri;
+font-size: 16px;
+font-style: italic;
+}
+.client .container img
+{
+margin: 40px 0;
+height: 80px;
+width: 80px;
+opacity: 0.7;
+}
+.client .container img:hover
+{
+opacity: 1;
+cursor:pointer;
+}
+/* End of Styling Client */
+
+/* Start Of Styling Contact */
+.contact .container
+{
+padding:40px 40px;
+}
+.contact .container .input-group
+{
+margin-bottom: 10px;
+}
+.contact .container span
+{
+background-color: royalblue;
+color:white;
+}
+.contact .container .btn
+{
+width: 120px;
+background-color: royalblue;
+}
+.contact .container .btn:hover
+{
+background-color: darkblue;
+}
+@media(max-width:600px)
+{
+.contact .container .btn
+{
+width:82px;
+margin-bottom: 10px;
+text-align: center;
+}
+}
+.contact .container h2
+{
+text-align: center;
+font-size: 20px;
+font-style: italic;
+font-family: calibri;
+}
+.contact .container p
+{
+text-align: justify;
+font-size: 16px;
+font-style: italic;
+font-family: calibri;
+}
+/* End Of Styling Contact */
+/* Start Of Styling Footer*/
+.footer
+{
+padding: 20px 20px;
+background-color:#222222;
+color:white;
+font-family: calibri;
+}
+.footer .container
+{
+padding: 20px 20px;
+}
+.footer .container h4
+{
+}
+.footer .container li
+{
+list-style: none;
+}
+.footer .container .staytouch span
+{
+margin-bottom: 10px;
+}
+.footer .container .btn
+{
+margin-top: 10px;
+width:100px;
+font-size: 16px;
+}
+/* End Of Styling Footer*/
